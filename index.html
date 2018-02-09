@@ -72,10 +72,15 @@
             padding: 119px 10px;
         } */
 
-        body > .container {
+        /* body > .container {
     padding: 30px 15px 0;
-}
+} */
 
+
+main.container {
+    padding: 30px 15px 50px;
+    margin-bottom: 50px;
+}
 
 
     </style>
@@ -111,7 +116,7 @@
     <main role="main" class="container">
             <!-- about me, portfolio, contact -->
         <div class="row">
-            <div class="col-7">
+            <div class="col-sm-7">
                 <div class="jumbotron">
                     <h1 class="display-5">About Me</h1>
                     <hr class="my-4" />
@@ -123,15 +128,16 @@
                 </div>
                 
             </div>
-            <!-- connect with me -->
-            <div class="col-4 offset-1">
-                    <div class="card" > <!--removed:style="width: 18rem;" -->
+            <!-- connect with me --><!--removed from div.class:style="width: 18rem;" -->
+            <div class="col-sm-4 offset-md-1">
+                    <div class="card" > 
+                        
                         <h2 class="display-5 text-center">Connect with Me</h2>
                         <hr class="my-3" />
                         <div class="card-body">
-                            <!-- <img src="images/github.png" alt="github icon" />
+                            <img src="images/github.png" alt="github icon" />
                             <img src="images/linkedin.png" alt="linked in icon" />
-                            <img src="images/stackoverflow.png" alt="stackoverflow icon" /> -->
+                            <img src="images/stackoverflow.png" alt="stackoverflow icon" />
 
                         </div>
                     </div>
@@ -142,7 +148,7 @@
         
     <!-- footer -->
     <!-- <div class="row"> -->
-    <footer class="footer">
+    <footer class="footer sticky-bottom">
         <div class="container">
         <span class="text-muted">&copy;Copyright 2018 Ivan Saucedo</span>
         </div>
