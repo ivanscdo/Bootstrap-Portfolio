@@ -14,25 +14,25 @@
     <title>About - Ivan Saucedo</title>
   </head>
   <body>
-     <!-- navbar -->
+     <!-- header/navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
             <div class="container">
-                <a class="navbar-brand" href="#">Ivan Saucedo</a>
+                <a class="navbar-brand" href="index.html">Ivan Saucedo</a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+                <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -49,14 +49,16 @@
                     <h1 class="display-5">About Me</h1>
                     <hr class="my-4" />
                     <img src="assets/images/business_dude.jpg" class="img-fluid float-left selfie" alt="selfie" />
-                    <p>My name is Ivan Saucedo. I'm 29 years old. Originally from El Paso, Texas, I currently live in Austin with my girlfriend and two dogs. We have a Pekingese and an Old English Bulldog, both are 5 years old and both have been with us since they were only weeks old.
+                    <p class="aboutp allotherfont">My name is Ivan Saucedo. I'm 29 years old. Originally from El Paso, Texas, I currently live in Austin. I was first exposed to programming in high school. My best friend had started playing around with tutorials and I followed suit. I picked up basic HTML and Python, all culminating in a class project we both worked on. Unfortunately, I left it all on the back burner as I chased other creative outlets, namely music and writing. A couple years ago, I caught a YouTube video of a 12-year old giving a presentation about an iOS app he had created. This rekindled my interest and I began trying to learn on my own. I enrolled in edX's Intro to Computer Science, as well as several web development courses on Udemy, Udacity, and Codeacademy. Of course, I also followed programming channels on online message boards and, most recently, I began reading Eloquent Javascript, as suggested by the internet.
                     </p>
-                    <p>I'm excited to be here. I'm excited to be learning from talented individuals. And most importantly, I'm excited about meeting and working with like-minded people.
+                    <p class="aboutp allotherfont">I was exposed to a lot of new concepts, but unfortunately I was missing a sense of structure, direction, and teamwork. I wanted to take my programming career beyond baby steps. In November of 2017, I stumbled onto the UT Coding Bootcamp and, after researching the program and consulting with a friend who is in the industry, I decided to take the plunge. This particular friend works in web development and I look up to him. I admire what he's doing and I want to do the same for others. I want to set a good example and be a role model for my niece and nephews.
+                    </p>
+                    <p class="aboutp allotherfont">I'm excited to be here. I'm excited to be learning from talented individuals. And most importantly, I'm excited about meeting and working with like-minded people.
                     </p>
                 </div>
                 
             </div>
-            <!-- connect with me --><!--removed from div.class:style="width: 18rem;" -->
+            <!-- connect with me --><!--removed:style="width: 18rem;" -->
             <div class="col-sm-4 offset-md-1">
                 <div class="card" > 
                     <div class="row justify-content-center">
@@ -64,11 +66,15 @@
                         
                     </div>
                     <hr class="my-3" />
-                    <div class="row justify-content-center">
-                        <div class="">
-                            <img class="social img-fluid" src="assets/images/github.png" alt="github icon" />
-                            <img class="social img-fluid" src="assets/images/linkedin.png" alt="linked in icon" />
-                            <img class="social stack img-fluid" src="assets/images/stackoverflow.png" alt="stackoverflow icon" />
+                    <div class="row justify-content-center vertical-align">
+                        <div class="col-xs-4">
+                            <a href="https://github.com/ivanscdo" target="_blank"><img class="img-fluid" src="assets/images/github.png" alt="github icon" /></a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="https://www.linkedin.com/in/ivan-saucedo-94272174/" target="_blank"><img class="img-fluid" src="assets/images/linkedin.png" alt="linked in icon" /></a>
+                        </div>
+                        <div class="col-xs-4 stack">
+                            <a href="https://stackexchange.com/users/12789137/ivanscdo" target="_blank"><img class="img-fluid" src="assets/images/stackoverflow.png" alt="stackoverflow icon" /></a>
                         </div>
                     </div>
                 </div>
@@ -77,10 +83,9 @@
     </main>
         
     <!-- footer -->
-    <!-- <div class="row"> -->
     <footer class="footer sticky-bottom">
         <div class="container">
-        <span class="text-muted">&copy;Copyright 2018 Ivan Saucedo</span>
+            <p>&copy;Copyright 2018 Ivan Saucedo</p>
         </div>
     </footer>
 
