@@ -139,7 +139,7 @@ padding: 30px 15px 0;
     padding-bottom: 30px;
 }
 
-/* image captions hack, favor portrait-mobile (iphone x)*/
+/* image captions hack, bias toward portrait-mobile (iphone x)*/
 .thumbnail {
     position: relative;
 }
@@ -154,7 +154,19 @@ padding: 30px 15px 0;
     color: #ffffff;
 }
 
-/* RPS & RIW hack */
+/* RPS & RIW font fix */
 .small-caption {
     font-size: 70%;
 }
+
+/* .carousel-caption {
+    position: absolute;
+    top: 45%;
+    width: 82%;
+    height: auto;
+    left: 9%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 0px;
+    bottom: 50px;
+} */
